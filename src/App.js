@@ -18,7 +18,7 @@ function App() {
           </Link>
           <Button
             size="large"
-            onClik={function () {
+            onClick={function () {
               history.push("/upload");
             }}
             icon={<DownloadOutlined />}
